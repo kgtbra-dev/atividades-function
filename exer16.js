@@ -1,9 +1,9 @@
-function CalcularDsconto(preco, percentual) {
+function CalcularDesconto(preco, percentual) {
 
     let ValorDesconto = preco * percentual / 100;
     return precoFinal = preco - ValorDesconto ;
     
 }
 
- let ValorFinal = CalcularDsconto(200, 10);
+ let ValorFinal = CalcularDesconto(200, 10);
  console.log(ValorFinal)
