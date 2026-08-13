@@ -1,5 +1,4 @@
-function mult(numero1) {
-    console.log(numero1 * 2);
+function saudacao(nome) {
+    console.log(`Olá, ${nome}`);
 }
-
-mult(8)
+saudacao("Kevin");
