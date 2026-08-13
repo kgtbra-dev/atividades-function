@@ -1,7 +1,7 @@
-function med(nota1 ,nota2) {
-    let media = ( nota1 + nota2) /2;
-    return media;
+function mult(nota1 ,nota2) {
+    let multe = ( nota1 * nota2) ;
+    return multe;
 }
 
-let resultado = med (10, 5);
+let resultado = mult (10, 5);
 console.log(resultado);
